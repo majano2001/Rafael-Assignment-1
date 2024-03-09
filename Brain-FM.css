@@ -1,0 +1,76 @@
+body {
+    background-color: RGB(72, 18, 246);
+    font-family: Arial;
+    color: #FFFFFF
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type='button'] {
+    border: 0px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px 25px;
+    background: linear-gradient(to right, rgb(234, 158, 62) , rgb(240, 125, 55)); 
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: normal
+}
+
+ .section-1 {
+    margin-left: 20px;
+}
+.headline {
+    display: flex;
+    align-items: center;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.some-2 {
+    flex: 0px 0px 450px;
+    color: RGB(200 184 250);
+    z-index: 1;
+    margin-right: -70px;
+    margin-top: 45px;
+}
+
+.picture-1 {
+    flex: 0px 1px 900px;
+    z-index: 0;
+}
+
+.section-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.some-3 {
+    flex: 0px 1px 500px;
+    margin-top: 50px;
+}
+
+.test-brain-behavior {
+    flex: 100px 1px 400px;
+}
